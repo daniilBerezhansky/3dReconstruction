@@ -4,8 +4,8 @@
 # Requirements
 
 ## 1. PURPOSE
-The goal of this project is to provide a mobile applications which reconstructs 3D model of object from multiple images of it.
+The goal of this project is to provide mobile application which reconstruct the 3D model of an object from multiple images of it.
 
 ## 2. Scope
 
-"Application Name" is a mobile application for 3D reconstruction. User should provide multiple images from different perspective with some object on it. These  images will be sent to a server, which will incoming images and will return 3D model of particular object.
+"Application Name" is a mobile application for 3D reconstruction. User should provide multiple images from a different perspective with some object on it.These images will be sent to a server, which will incoming images and will return the 3D model of the particular object. I wint gone.
