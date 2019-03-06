@@ -21,13 +21,11 @@ A first-time user of the mobile application should see the log-in. If the user h
 
 ### 3.2. SOFTWARE INTERFACES
 | Software used  | Description |
-| ------------- | ------------- |
 | Server operating system  | Ubuntu 16.04+  |
 |Database|MySQL|
 
 ### Flow diagram
-https://www.lucidchart.com/documents/view/d840de05-49e7-4d83-8a51-f6af29b14df5
-
+![alt text](https://raw.githubusercontent.com/daniilBerezhansky/3dReconstruction/master/image.png)
 ### Systems Development Life Cycle
 ![alt text](https://s3.amazonaws.com/production-wordpress-assets/blog/wp-content/uploads/2016/12/15122208/iterative.png)
 
