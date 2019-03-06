@@ -27,5 +27,5 @@ A first-time user of the mobile application should see the log-in. If the user h
 ### Flow diagram
 ![alt text](https://raw.githubusercontent.com/daniilBerezhansky/3dReconstruction/master/image.png)
 ### Systems Development Life Cycle
-![alt text](https://s3.amazonaws.com/production-wordpress-assets/blog/wp-content/uploads/2016/12/15122208/iterative.png)
+![alt text](https://www.pro-technix.com/services/software/images/evolvem.gif)
 
