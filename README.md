@@ -21,6 +21,7 @@ A first-time user of the mobile application should see the log-in. If the user h
 
 ### 3.2. SOFTWARE INTERFACES
 | Software used  | Description |
+|----------------|-------------|
 | Server operating system  | Ubuntu 16.04+  |
 |Database|MySQL|
 
