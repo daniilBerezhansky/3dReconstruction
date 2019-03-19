@@ -30,3 +30,6 @@ A first-time user of the mobile application should see the log-in. If the user h
 ### Systems Development Life Cycle
 ![alt text](https://www.pro-technix.com/services/software/images/evolvem.gif)
 
+### Architecture
+![alt text](https://raw.githubusercontent.com/daniilBerezhansky/3dReconstruction/master/ARCHITECTURE.png)
+
