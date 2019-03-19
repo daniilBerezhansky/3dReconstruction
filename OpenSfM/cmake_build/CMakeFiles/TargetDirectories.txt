@@ -1,0 +1,12 @@
+/home/daniil/OpenSfM/cmake_build/CMakeFiles/edit_cache.dir
+/home/daniil/OpenSfM/cmake_build/CMakeFiles/test.dir
+/home/daniil/OpenSfM/cmake_build/CMakeFiles/akaze.dir
+/home/daniil/OpenSfM/cmake_build/CMakeFiles/vl.dir
+/home/daniil/OpenSfM/cmake_build/CMakeFiles/csfm.dir
+/home/daniil/OpenSfM/cmake_build/CMakeFiles/rebuild_cache.dir
+/home/daniil/OpenSfM/cmake_build/CMakeFiles/depthmap_test.dir
+/home/daniil/OpenSfM/cmake_build/CMakeFiles/gtest.dir
+/home/daniil/OpenSfM/cmake_build/CMakeFiles/testing_main.dir
+/home/daniil/OpenSfM/cmake_build/third_party/pybind11/CMakeFiles/rebuild_cache.dir
+/home/daniil/OpenSfM/cmake_build/third_party/pybind11/CMakeFiles/test.dir
+/home/daniil/OpenSfM/cmake_build/third_party/pybind11/CMakeFiles/edit_cache.dir
