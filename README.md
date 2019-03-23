@@ -33,3 +33,4 @@ A first-time user of the mobile application should see the log-in. If the user h
 ### Architecture
 ![alt text](https://raw.githubusercontent.com/daniilBerezhansky/3dReconstruction/master/ARCHITECTURE.png)
 
+Structure from Motion pipeline  - https://github.com/mapillary/OpenSfM
