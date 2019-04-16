@@ -1,0 +1,30 @@
+#nav_dashboard{
+    margin-left:550px ;
+}
+@font-face{
+    font-family: Space;
+    src: url(font/13768.otf);
+}
+.main_part {
+    background: url("img/space.png")  no-repeat;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+.capture_box{
+    margin-top: 200px;
+    height: 100px;
+}
+#text{
+    position: relative;
+    color: #eeeceb;
+    font-family:Space ;
+    font-size: 70pt;
+}
+#square{
+    position: absolute;
+    opacity: 0.09;
+    padding-top: 180px;
+
+
+}
