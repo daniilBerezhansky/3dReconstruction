@@ -243,8 +243,8 @@ def merge_depthmaps(data, reconstruction):
     with io.open_wt(data._depthmap_path() + '/merged.ply') as fp:
         point_cloud_to_ply(points, normals, colors, labels, detections, fp)
 
-    normpc = PyntCloud.from_file(data._depthmap_path() + '/merged.ply')
-    normpc.to_file(data._depthmap_path() + '/out_file.ply')    
+    #normpc = PyntCloud.from_file(data._depthmap_path() + '/merged.ply')
+    #normpc.to_file(data._depthmap_path() + '/out_file.ply')    
 
 
 def add_views_to_depth_estimator(data, neighbors, de):
@@ -442,9 +442,9 @@ def depthmap_to_ply(shot, depth, image):
         "property float x",
         "property float y",
         "property float z",
-        "property uchar diffuse_red",
-        "property uchar diffuse_green",
-        "property uchar diffuse_blue",
+        "property uchar red",
+        "property uchar green",
+        "property uchar blue",
         "end_header",
     ]
 
@@ -467,9 +467,9 @@ def _point_cloud_to_ply_lines(points, normals, colors, labels, detections):
     yield "property float nx\n"
     yield "property float ny\n"
     yield "property float nz\n"
-    yield "property uchar diffuse_red\n"
-    yield "property uchar diffuse_green\n"
-    yield "property uchar diffuse_blue\n"
+    yield "property uchar red\n"
+    yield "property uchar green\n"
+    yield "property uchar blue\n"
     yield "property uchar class\n"
     yield "property uchar detection\n"
     yield "end_header\n"

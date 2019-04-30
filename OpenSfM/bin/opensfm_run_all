@@ -15,3 +15,5 @@ $PYTHON $DIR/opensfm reconstruct $1
 $PYTHON $DIR/opensfm mesh $1
 $PYTHON $DIR/opensfm undistort $1
 $PYTHON $DIR/opensfm compute_depthmaps $1
+$PYTHON $DIR/clean.py $1/depthmaps/merged.ply
+meshlab.meshlabserver -i $1/depthmaps/cleaned.ply -o $1/result.ply -m vc fq wt -s $DIR/poisson.mlx
