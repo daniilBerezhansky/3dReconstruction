@@ -28,3 +28,137 @@
 
 
 }
+.parallax {
+    /* The image used */
+    background-image: url("img/img_parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax_text1{
+
+    font-size:18px
+}
+
+.content_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#cont_label{
+
+    text-align: center;
+    font-family: Space;
+    font-size: 70px;
+}
+.cont_item{
+    width: 450px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10,#img11,#img12{
+    width: 200px;
+    height: 200px;
+}
+#team_box{
+    display: flex;
+    padding-left: 40px;
+    flex-direction: column;
+
+}
+.team_img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.photobox{
+    display: inline-block;
+}
+
+.photobox__previewbox{
+    position: relative;
+    overflow: hidden;
+}
+
+.photobox__preview{
+    display: block;
+    max-width: 100%;
+}
+
+.photobox__previewbox:before{
+    content: "";
+}
+.photobox_type9 .photobox__previewbox:before{
+    width: 0;
+    height: 0;
+    padding: 25%;
+
+    background-color: var(--photoboxOverlay, rgba(94, 63, 238, 0.8));
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+
+    transition: transform calc(var(--photoboxAnimationDuration, .8s) / 2) ease;
+    will-change: transform;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.photobox_type9:hover .photobox__previewbox:before{
+    transform: translate(-50%, -50%) scale(4);
+    transition-duration: var(--photoboxAnimationDuration, .8s);
+}
+
+.photobox_type9 .photobox__label{
+    width: 95%;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity calc(var(--photoboxAnimationDuration, .8s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9), transform calc(var(--photoboxAnimationDuration, .8s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9);
+    will-change: opacity, transform;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    z-index: 3;
+}
+
+.photobox_type9:hover .photobox__label{
+    opacity: 1;
+    transform: translate(-50%, -0%);
+    transition-duration: calc(var(--photoboxAnimationDuration, .8s) / 2);
+    transition-delay: calc(var(--photoboxAnimationDuration, .8s) / 4);
+}
+
+.photobox_type9 .photobox__preview{
+    transition: transform calc(var(--photoboxAnimationDuration, .8s) / 2) cubic-bezier(0.71, 0.05, 0.29, 0.9);
+    will-change: transform;
+    transform: scale(1);
+}
+
+.photobox_type9:hover .photobox__preview{
+    transform: scale(1.2);
+}
+
+#D_Team{
+    font-family: Space;
+    font-size: 90px;
+   text-align: center;
+}
