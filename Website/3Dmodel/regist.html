@@ -1,203 +1,46 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>3Dmodel</title>
     <link href="style.css" rel="stylesheet">
+    <link href="log.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <nav >
-            <span class="navbar-brand mb-0 h1">Logo</span>
-        </nav>
-        <a id="nav_dashboard" class="navbar-brand" href="#">Dashboard</a>
-        <a id="" class="navbar-brand" href="regist.html">Sign in</a>
-
+<nav class="navbar navbar-dark bg-dark">
+    <nav >
+        <span class="navbar-brand mb-0 h1">Logo</span>
     </nav>
-    <div class="main_part">
-        <div id="square"><img  src="img/sq.png" alt="sq"  >
-        </div>
-        <div class="capture_box">
-           <div id="text"><p >3D Reconstruction</p>
-           </div>
+    <a id="nav_dashboard" class="navbar-brand" href="index.html">Home</a>
+    <a id="" class="navbar-brand" href="dashboard.html">Dashboard</a>
+</nav>
+
+<div class="main-signin">
+    <div class="main-signin__head">
+        <p>LOGIN | REGISTER</p>
+    </div>
+    <div class="main-signin__middle">
+        <div class="middle__form">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Login">
+            <p id="t_ext">or</p>
+            <input type="submit" value="Sign up">
         </div>
     </div>
-    <h1 id="cont_label">Project</h1>
-    <div class="content_box">
-
-        <div class="cont_item" ><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Aspernatur dolorum est exercitationem, ipsam labore
-            provident quae quasi quo ratione reiciendis rem similique tenetur ut! Aspernatur
-            illum iure nesciunt provident quidem.</p>
-        <img src="img/IT.png" width="230px" height=150px"></div>
-        <div class="cont_item" ><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Aspernatur dolorum est exercitationem, ipsam labore
-            provident quae quasi quo ratione reiciendis rem similique tenetur ut! Aspernatur
-            illum iure nesciunt provident quidem.</p>
-            <img src="img/SQL.png" width="180px" height=150px"></div>
-
-        <div class="cont_item" ><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aspernatur dolorum est exercitationem, ipsam labore
-                provident quae quasi quo ratione reiciendis rem similique tenetur ut! Aspernatur
-                illum iure nesciunt provident quidem.</p>
-            <img src="img/3D.png" width="230px" height=150px"></div>
-        <div class="cont_item" ><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aspernatur dolorum est exercitationem, ipsam labore
-                provident quae quasi quo ratione reiciendis rem similique tenetur ut! Aspernatur
-                illum iure nesciunt provident quidem.</p>
-            <img src="img/www.png" width="180px" height=150px"></div>
+    <div class="main-signin__foot">
+        <div class="foot__left">
+            <p>Login with:</p>
         </div>
-
-
-
-        <div class="parallax"></div>
-    <div id="parallax_text1">
-
-        <h1 id="D_Team">DREAM TEAM</h1>
-        <div id="team_box">
-            <div class="team_img">
-                <div class="page">
-                    <div class="page__demo">
-                        <div class="page__container">
-                            <div class="photobox photobox_type9">
-                                <div class="photobox__previewbox">
-                                    <img id="img1" src="img/mart.jpg" class="photobox__preview" alt="Preview">
-                                    <span class="photobox__label">V. Martynova</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="page">
-                    <div class="page__demo">
-                        <div class="page__container">
-                            <div class="photobox photobox_type9">
-                                <div class="photobox__previewbox">
-                                    <img id="img3" src="img/orlov.jpg" class="photobox__preview" alt="Preview">
-                                    <span class="photobox__label">A.Orlov</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="page">
-                    <div class="page__demo">
-                        <div class="page__container">
-                            <div class="photobox photobox_type9">
-                                <div class="photobox__previewbox">
-                                    <img id="img2" src="img/chanyzh.jpg" class="photobox__preview" alt="Preview">
-                                    <span class="photobox__label">R.Chanyzh</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="page">
-                    <div class="page__demo">
-                        <div class="page__container">
-                            <div class="photobox photobox_type9">
-                                <div class="photobox__previewbox">
-                                    <img id="img4" src="img/nyk.jpg" class="photobox__preview" alt="Preview">
-                                    <span class="photobox__label">D.Nykyforchyn</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="page">
-                    <div class="page__demo">
-                        <div class="page__container">
-                            <div class="photobox photobox_type9">
-                                <div class="photobox__previewbox">
-                                    <img id="img5" src="img/polya.jpg" class="photobox__preview" alt="Preview">
-                                    <span class="photobox__label">P.Lisitskaya</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="page">
-                    <div class="page__demo">
-                        <div class="page__container">
-                            <div class="photobox photobox_type9">
-                                <div class="photobox__previewbox">
-                                    <img id="img11" src="img/ign.jpg" class="photobox__preview" alt="Preview">
-                                    <span class="photobox__label">N.Ignatenko</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="team_img">
-                <div class="page">
-                    <div class="page__demo">
-                        <div class="page__container">
-                            <div class="photobox photobox_type9">
-                                <div class="photobox__previewbox">
-                                    <img id="img6" src="img/sypko.jpg" class="photobox__preview" alt="Preview">
-                                    <span class="photobox__label">R.Sypko</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="page">
-                    <div class="page__demo">
-                        <div class="page__container">
-                            <div class="photobox photobox_type9">
-                                <div class="photobox__previewbox">
-                                    <img id="img7" src="img/soroka.jpg" class="photobox__preview" alt="Preview">
-                                    <span class="photobox__label">O.Soroka</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="page">
-                    <div class="page__demo">
-                        <div class="page__container">
-                            <div class="photobox photobox_type9">
-                                <div class="photobox__previewbox">
-                                    <img id="img8" src="img/pryjma.jpg" class="photobox__preview" alt="Preview">
-                                    <span class="photobox__label">R.Pryima</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="page">
-                    <div class="page__demo">
-                        <div class="page__container">
-                            <div class="photobox photobox_type9">
-                                <div class="photobox__previewbox">
-                                    <img id="img9" src="img/Klyueva.jpg" class="photobox__preview" alt="Preview">
-                                    <span class="photobox__label">T.Klyueva</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="page">
-                    <div class="page__demo">
-                        <div class="page__container">
-                            <div class="photobox photobox_type9">
-                                <div class="photobox__previewbox">
-                                    <img id="img10" src="img/" class="photobox__preview" alt="Preview">
-                                    <span class="photobox__label"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-         </div>
+        <div class="foot__right">
+            <div class="twit"><a href="#"></a></div>
+            <div class="face"><a href="#"></a></div>
         </div>
     </div>
+</div>
 </body>
-<script src="//netdna.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </html>
-
