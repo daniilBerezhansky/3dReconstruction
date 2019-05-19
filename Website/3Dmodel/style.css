@@ -1,5 +1,5 @@
 #nav_dashboard{
-    margin-left:550px ;
+    margin-left:80% ;
 }
 @font-face{
     font-family: Space;
@@ -162,9 +162,3 @@
     font-size: 90px;
    text-align: center;
 }
-.upproc{
-    display: flex;
-    justify-content: space-around;
-
-}
-;
