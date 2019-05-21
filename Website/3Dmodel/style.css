@@ -45,6 +45,10 @@
 
     font-size:18px
 }
+.upproc{
+    display: flex;
+    justify-content: space-around;
+}
 
 .content_box{
     display: flex;
@@ -214,10 +218,6 @@
     font-size: 90px;
    text-align: center;
 }
-.upproc{
-    display: flex;
-    justify-content: space-around;
 
-}.cont_item2:hover{
-    opacity: 0.8;
-}
+
+
