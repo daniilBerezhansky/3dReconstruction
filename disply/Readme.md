@@ -1,4 +1,4 @@
-##Installing
+## Installing
 If you want to run this site first of all you need download all files from this folder then paste them to any installed server.
 
 Further you need run this command:
@@ -6,7 +6,7 @@ Further you need run this command:
 npm i three
 ```
 
-##Code changes
+## Code changes
 
 In folder models/ply/binary you can add your 3d models.
  
