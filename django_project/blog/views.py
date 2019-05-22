@@ -35,3 +35,8 @@ class Reconstruction(View):
         else:
             data = {'is_valid': False}
         return JsonResponse(data)
+
+class Posts(View):
+    def get(self, request):
+        posts_list = Post.objects.all()
+        return render(self.request, 'blog/posts.html', {'posts': posts_list})
