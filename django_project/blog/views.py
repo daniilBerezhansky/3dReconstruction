@@ -1,6 +1,6 @@
 from django.core.files.storage import FileSystemStorage
 from django.http import JsonResponse, HttpResponseRedirect
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views import View
 from django.views.generic import CreateView
 
@@ -49,7 +49,4 @@ class Posts(View):
             post = form.save(commit=False)
             post.author = request.user
             post.save()
-            data = {'is_valid': True, 'post': post}
-        else:
-            data = {'is_valid': False}
-        return HttpResponseRedirect('/posts')
+        return redirect('posts')
