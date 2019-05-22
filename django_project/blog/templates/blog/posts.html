@@ -2,6 +2,23 @@
 {% load static %}
 
 {% block content %}
+    <form action="{% url 'posts' %}" method="post" class="bg-light bordered p-3">
+    {% csrf_token %}
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" name="title" id="title" placeholder="Title"
+                   data-url="{% url 'posts' %}"
+                   data-form-data='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'>
+        </div>
+        <div class="form-group">
+            <label for="content">Content</label>
+            <input type="text" class="form-control" name="content" id="content" placeholder="Write your thoughts here"
+                   data-url="{% url 'posts' %}"
+                   data-form-data='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'>
+        </div>
+        <input type="submit" class="btn btn-primary"
+               data-form-data='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'>
+    </form>
 
     <section id="posts" class="p-3">
         <h2 class="my-3">Posts</h2>
